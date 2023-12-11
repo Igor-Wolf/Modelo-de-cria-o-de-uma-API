@@ -4,13 +4,13 @@ Esse projeto tem como objetivo a elaboração de uma API com a finalidade de int
 ## Observações:
 É necessário baixar pacotes para o Visual Studio Code para que a API funcione normamalemente como:
 
-- Instalação feita uma vez na sua máquina)
+- Instalação feita uma vez na sua máquina
   
 dotnet tool install --global dotnet-ef 
 
 - Instalação feita uma vez por projeto)
   
-dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Microsoft.EntityFrameworkCore.Design  
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 
 - Criação da tabela no banco de dados SQL
